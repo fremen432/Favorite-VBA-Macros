@@ -1,6 +1,6 @@
 Sub Freeze_Values()
 '
-' Freeze Macro (copy selected cells and paste only their values in the same selected cells)
+' Copy selected cells and paste only their values (not their formula) in the same selected cell range
 '
     Selection.Copy
     Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
