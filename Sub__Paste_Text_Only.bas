@@ -1,7 +1,6 @@
 Sub Paste_Text_Only()
-'
-' Paste_Text_Only Macro
-' (Alt + H + V + T)
-'
+
+    'PURPOSE:   Simple subroutine to paste raw text values without formatting
+
     Selection.PasteAndFormat (wdFormatPlainText)
 End Sub
