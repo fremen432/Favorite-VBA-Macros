@@ -1,7 +1,7 @@
 Sub AutoFit()
-'
-' AutoFit all rows and columns and set empty cells to default RowHeight and ColumnWidth
-'
+
+    'PURPOSE:   AutoFit all rows and columns and set empty cells to default RowHeight and ColumnWidth
+
     Dim Starting_Selection_Address As String
     Dim Default_RowHeight As Integer
     Dim Default_ColumnWidth As Integer
@@ -10,7 +10,8 @@ Sub AutoFit()
     Default_RowHeight = 15
     Default_ColumnWidth = 8.43
     
-    Application.ScreenUpdating = False ' prevent animations
+    Application.ScreenUpdating = False ' pause animations
+    
     Cells.Select
     
     ' first, set all cells in worksheet to default RowHeight and ColumnWidth
@@ -23,6 +24,7 @@ Sub AutoFit()
     
     'return selection to the starting selection
     Range(Starting_Selection_Address).Select
-    Application.ScreenUpdating = True
+
+    Application.ScreenUpdating = True ' resume animations
     
 End Sub
