@@ -12,7 +12,7 @@ Sub AutoFit()
     
     Application.ScreenUpdating = False ' pause animations
     
-    Cells.Select
+    Cells.Select ' select all cells in current sheet
     
     ' first, set all cells in worksheet to default RowHeight and ColumnWidth
     Selection.RowHeight = Default_RowHeight
