@@ -1,0 +1,9 @@
+Sub Freeze_Values()
+'
+' Freeze Macro (copy selected cells and paste only their values in the same selected cells)
+'
+    Selection.Copy
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Application.CutCopyMode = False
+End Sub
