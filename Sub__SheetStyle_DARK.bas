@@ -1,6 +1,6 @@
 Sub SheetStyle_DARK()
 
-    'PURPOSE:   Change style of current sheet to a darker theme. Add gray background stored on local disk (Black, Text 1, Lighter 25%.png), add gray borders around all cells, change font to white. Option to set fill cells to gray color instead of adding gray background.
+    'PURPOSE:   Change style of current sheet to a DARK theme. Add gray background stored on local disk (Black, Text 1, Lighter 25%.png), add gray borders around all cells, change font to white. Option to set fill cells to gray color instead of adding gray background.
 
     Application.ScreenUpdating = False ' pause animations
     Starting_Selection_Address = Replace(Selection.Address, "$", "") ' store currently selected cell range as a string
