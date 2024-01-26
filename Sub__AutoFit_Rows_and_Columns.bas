@@ -1,6 +1,6 @@
 Sub AutoFit()
 
-    'PURPOSE:   AutoFit all rows and columns and set empty cells to default RowHeight and ColumnWidth
+    'PURPOSE:   AutoFit all rows and columns. Set empty cells to default RowHeight and ColumnWidth
 
     Dim Starting_Selection_Address As String
     Dim Default_RowHeight As Integer
