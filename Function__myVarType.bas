@@ -1,7 +1,8 @@
 Function myVarType(variable)
 
-    'PURPOSE:   An alternate version of VBA's VarType function. Determine variable type, then output a string description of the type instead of giving a number.
-    'REFERENCE: https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/vartype-function
+    'PURPOSE:     An alternate version of VBA's VarType function. Determine variable type, then output a string containing the number, the VarType constant, and a description of the VarType constant.
+    'REFERENCE 1: https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/vartype-function
+    'REFERENCE 2: https://learn.microsoft.com/en-us/office/vba/language/concepts/getting-started/vartype-constants
 
     Dim result As Long: result = VarType(variable)
     
