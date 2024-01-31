@@ -5,8 +5,7 @@ Sub SheetStyle_DARKER()
     Application.ScreenUpdating = False ' pause animations
     Starting_Selection_Address = Replace(Selection.Address, "$", "") ' store currently selected cell range as a string
 
-    ActiveSheet.SetBackgroundPicture Filename:= _
-        "C:\Users\cmiller.RTGTX\Proton Drive\hollow_submarine\My files\02 -- Images\Plain-Colors\From Excel\Black, Text 1.png"
+    ActiveSheet.SetBackgroundPicture Filename:= "PATH_TO_BLACK_IMAGE" ' set path to plain black image. Ex: https://commons.wikimedia.org/wiki/File:A_black_image.jpg
 
     Cells.Select
 
