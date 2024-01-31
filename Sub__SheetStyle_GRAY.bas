@@ -1,4 +1,4 @@
-Sub SheetStyle_DARK()
+Sub SheetStyle_GRAY()
 
     'PURPOSE:   Change style of current sheet to a DARK theme. Add gray background stored on local disk (Black, Text 1, Lighter 25%.png), add gray borders around all cells, change font to white. Option to set fill cells to gray color instead of adding gray background.
 
