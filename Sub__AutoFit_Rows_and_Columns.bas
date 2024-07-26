@@ -4,7 +4,7 @@ Sub AutoFit()
 
     Dim Starting_Selection_Address As String
     Dim Default_RowHeight As Integer
-    Dim Default_ColumnWidth As Integer
+    Dim Default_ColumnWidth As Double
 
     Starting_Selection_Address = Replace(Selection.Address, "$", "") ' store currently selected cell range as a string
     Default_RowHeight = 15
